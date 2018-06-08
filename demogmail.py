@@ -19,9 +19,9 @@ if __name__ == '__main__':
         #print("%d" % humid)
         
     # me : 自分のGmail アドレス, you : 送信先のアドレス, passwd : Gmailパスワード
-    me = "aola@mikilab.doshisha.ac.jp"
-    passwd = "wwpkrqvftvvtojfz"
-    you = "rmorimoto@mikilab.doshisha.ac.jp"
+    me = "frommail@gmail.com"
+    passwd = "xxxxxxxxxxxxx"
+    you = "tomail@gmail.com"
     titletext = "KC111の温度・湿度報告【テスト】"
     body = "研究室の皆様．\n \nアオラです．\n現在のKC111の温度，湿度に関して報告いたします．\n \n---------------\n時間 : テスト\n温度 : " + str(int(temp)) + " ℃\n湿度 : " + str(int(humid)) + "％\n---------------\n \n以上です．\n失礼致します．\n \n--------------------\n同志社大学 理工学部\n知的システムデザイン研究室\nアオラ<Assistant of LA>\nmail : aola@mikilab.doshisha.ac.jp\n--------------------"
 
