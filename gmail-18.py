@@ -21,9 +21,9 @@ if __name__ == '__main__':
 
     # 以下の内容を変更する
     # me : 自分のGmail アドレス, you : 送信先のアドレス, passwd : Gmailパスワード
-    me = "aola@mikilab.doshisha.ac.jp"
-    passwd = "wwpkrqvftvvtojfz"
-    you = "KC17@mikilab.doshisha.ac.jp"
+    me = "frommail@gmail.com"
+    passwd = "xxxxxxxxxxxxx"
+    you = "tomail@gmail.com"
     titletext = "KC104の温度・湿度報告【18時】"
     body = "研究室の皆様\n \nアオラです．\n現在のKC104の温度，湿度に関して報告致します．\n \n---------------\n時間 : 18時\n温度 : " + str(int(temp)) + " ℃\n湿度 : " + str(int(humid)) + "％\n---------------\n \n以上です．\n失礼致します．\n \n--------------------\n同志社大学 理工学部\n知的システムデザイン研究室\nアオラ <Assistant of LA>\nmail : aola@mikilab.doshisha.ac.jp\n--------------------"
 
